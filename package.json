@@ -1,7 +1,7 @@
 {
-  "name": "1-Passport-Example",
+  "name": "1-passport-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "This application provides a walk-through of a codebase for developers to use as a starting point.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,11 +13,19 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "2.4.3",
-    "express": "^4.17.0",
-    "express-session": "^1.16.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
     "mysql2": "^1.6.5",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "sequelize": "^5.8.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HowardDaniels/reverse-engineering-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HowardDaniels/reverse-engineering-code/issues"
+  },
+  "homepage": "https://github.com/HowardDaniels/reverse-engineering-code#readme"
 }
